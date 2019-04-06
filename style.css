@@ -1,0 +1,409 @@
+
+html{
+  scroll-behavior: smooth;
+}
+.section
+ {
+  position: relative;
+
+ width: 100%;
+
+ height: 100vh;
+
+display: flex;
+
+align-items: center;
+
+ justify-content: center;
+
+overflow: hidden;
+
+}
+
+
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+ right:0; bottom:0; background-size:cover;  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+
+
+.main {
+  position : relative;
+}
+
+
+.mb-wrap {
+  margin : 20px auto;
+  padding : 20px;
+  position : relative;
+  width : 300px;
+}
+
+.mb-wrap p {
+  margin : 0;
+  padding : 0;
+}
+
+.mb-wrap blockquote {
+  margin : 0;
+  padding : 0;
+  position : relative;
+}
+
+.mb-wrap cite {
+  font-style : normal;
+}
+
+.mb-style-2 blockquote {
+  padding-top : 150px;
+}
+
+.mb-style-2 blockquote:after {
+    background: none repeat scroll 0 0 rgba(235, 150, 108, 0.8);
+    border-radius: 50% 50% 50% 50%;
+    color: rgba(255, 255, 255, 0.5);
+    content: "❞";
+    font-family: 'icons';
+    font-size: 70px;
+    height: 130px;
+    left: 50%;
+    line-height: 130px;
+    margin-left: -65px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    top: 0;
+    width: 130px;
+}
+.mb-style-2 blockquote:before {
+    border-left: 5px solid rgba(235, 150, 108, 0.1);
+    border-radius: 50% 50% 50% 50%;
+    content: "";
+    height: 500px;
+    left: -50px;
+    position: absolute;
+    top: 0;
+    width: 500px;
+    z-index: -1;
+}
+
+.mb-style-2 blockquote p {
+  background : none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  box-shadow : 0 -6px 0 rgba(235, 150, 108, 0.2);
+  color : rgba(235, 150, 108, 0.8);
+  display : inline;
+  font-family : Baskerville, Georgia, serif;
+  font-style : italic;
+  font-size : 28px;
+  line-height : 46px;
+  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.mb-attribution {
+  text-align : right;
+}
+
+ .mb-author {
+  color : #D48158;
+  font-size : 18px;
+  font-weight : bold;
+  padding-top : 10px;
+  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.1);
+  text-transform : uppercase;
+}
+
+cite a {
+  color : #D7AA94;
+  font-style : italic;
+}
+
+cite a:hover {
+  color : #D48158;
+}
+#left
+{
+  font-size: 70px;
+  font-style: oblique;
+  background-image: url("b9.jpg");
+  background-size:cover;
+  height: 100%;
+  width:50%;
+position: relative;
+left:0;
+  top: 50%;
+padding: 228px 0;
+  float: left;
+font-family: Impact, fantasy	;
+
+
+
+}
+#right
+{
+  color: white;
+  font-size: 64px;
+  font-style: oblique;
+  background-image: url("b10.jpg");
+  background-size:cover;
+  height: 100%;
+  width:50%;
+position: relative;
+right:0;
+  top: 50%;
+padding: 10px 0;
+padding-bottom: 5px;
+float: right;
+font-family: Impact, fantasy	;
+
+}
+a
+{
+
+  text-decoration: none;
+
+}
+#right :hover
+{
+  color: lightgreen;
+
+}
+#description
+{
+  font-size: 50px;
+  background-color: black;
+  color: white;
+font-family:  Chalkduster, fantasy;
+}
+.backg{
+  background-image: url("b5.jpg");
+  background-size:cover;
+}
+#bg
+{
+  font-size: 35px;
+
+
+  font-family: Arial Narrow, sans-serif;
+}
+#effects
+{
+  font-size: 50px;
+  background-color: DarkGreen;
+  color: white;
+  font-family: Impact, fantasy;
+}
+.abc{
+  background-image: url("b2.jpg");
+  background-size:cover;
+}
+#effects1
+{
+  font-size: 35px;
+
+  font-family: Arial Narrow, sans-serif;
+}
+#causes
+{
+  font-size: 50px;
+  background-color: Tomato;
+  color: white;
+  font-family: Chalkduster, fantasy;
+}
+#causes1
+{
+  color: white;
+  font-size: 35px;
+  background-image: url("b6.jpg");
+  background-size:cover;
+  font-family: Arial Narrow, sans-serif;
+}
+#burning{
+   border: solid;
+   height: 400px;
+}
+#deforest{
+   border: solid;
+   height: 400px;
+}
+#farming{
+   border: solid;
+   height: 400px;
+}
+#help
+{
+  border: solid;
+  height: 450px;
+}
+#prevents
+{
+  font-size: 50px;
+  background-color: Maroon;
+  color: white;
+  font-family: Chalkduster, fantasy;
+}
+#prevents1
+{
+  font-size: 35px;
+  background-image: url("b4.jpg");
+  background-size:cover;
+  font-family: Arial Narrow, sans-serif;
+}
+
+#sld
+{
+  background-color: black;
+}
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+#gra
+{
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+font-family:  Chalkduster, fantasy;
+}
+#you
+{
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+font-family:  Chalkduster, fantasy;
+}
+#vid
+{
+  background-color: black;
+}
